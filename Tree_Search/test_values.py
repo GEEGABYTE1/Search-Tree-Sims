@@ -1,4 +1,5 @@
-from Search_Binary_Tree import TreeNode
+from Tree import TreeNode
+from bfs import bfs
 
 
 #### Test Inputs #####
@@ -21,5 +22,13 @@ test3.add_child(test6)
 test6.add_child(test9)
 test5.add_child(test7)
 test5.add_child(test8)
-test.traverse()
-print()
+
+### 
+
+goal_path = bfs(test, 6)            #test is the root node and 6 is a sample goal_value
+if goal_path == None:
+    print("No path has been found! ")
+else:
+    for node in goal_path:
+        print(node.value)
+
