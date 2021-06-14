@@ -1,16 +1,15 @@
-# Search Binary Tree
+# Search Trees 🌴🔎
 
 Simple organized view of traversing a search binary tree to return a certain value. 
 
-You can also traverse a min heap or max heap, however, values must be inputted manually into the program. 
+Users can also traverse a min heap or max heap, however, values must be inputted manually into the program. 
 
-Both Heaps (min and max) have all base functions, the traverse function must be kept in order to traverse the heap. 
+Both Heaps (min and max) have all base functions, the `.traverse()` function must be kept in order to traverse the heap. 
 
-All programs will require the user to input a value they want to find, when the program has be ran. 
+The Tree uses a *Breadth-First Search* Algorithm to Search values. Both space and time complexity are `O(N)`. This algorithm can look for a value in any type of tree with any amount of children under a parent node, making the algorithm very versatile in searching values in different types of trees, and not just binary tree. 
 
 # Extra info 
 
-Both the Search Binary Tree and Search Binary Heaps will display a level, of which will indicate what level on the tree the program is at in terms of searchning
-for the specified value. 
+The Bfs algorithm will return a the path of the search value and will print additional annotations.
 
 Made in Python 🐍
